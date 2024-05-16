@@ -10,7 +10,8 @@ En un principio era parte de html como atributo de tipo estilo y su atributo se 
 '''
 
 ### CSS El principio:
-se separa parte del equipo de html para la creacion y mantenimiento de una nueva tecnología a la que llamas 'CSS' (cascate style sheet - hojas de estilo en cascada).
+
+Se separa parte del equipo de html para la creacion y mantenimiento de una nueva tecnología a la que llamas 'CSS' (cascate style sheet - hojas de estilo en cascada).
 Y a raiz de esta separacion se crea en la primera version de esta tecnologia las etiquetas '<style></style>'.
 Cuando se usa en la actualidad 'style' como atributo, se le dice que estamos usando 'css en linea - css inline'. y cuando se usa '<style></style> como etiqueta se dice que estamos usando 'css en linea'
 
@@ -27,3 +28,6 @@ Cuando se usa en la actualidad 'style' como atributo, se le dice que estamos usa
 
 Html: Es una tecnologia para la web
 'W3C':Es la que regula es uso de las versiones de html en todos los navegadores.
+
+### RENDIRIZADO: 
+es la accion que hace el navegador para leer o ejecutar un archivo html.
