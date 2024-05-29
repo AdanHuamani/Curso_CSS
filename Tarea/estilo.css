@@ -1,0 +1,67 @@
+.caja{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid black;
+}
+article{
+    height: 250px;
+    width: 33.4% ;
+}
+.extremo_i{
+    background: red;
+}
+.extremo_d{
+    background: blue;
+}
+
+.caja_1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid black;
+}
+article{
+    height: 250px;
+    width: 33.4% ;
+}
+.extremo_is{
+    background: rgb(0, 107, 0);
+}
+.extremo_de{
+    background: rgb(168, 1, 1);
+}
+
+
+.caja_uno{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    article{
+        height: 85px;
+        width: 33%;
+    }
+    
+}
+.caja_ancha{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    article{
+        height: 65px;
+        width: 33%;
+    }
+}
+.caja_muy_ancha{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    background: red;
+    article{
+        height: 75px;
+        width: 27%;
+    }
+}
