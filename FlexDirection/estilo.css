@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .contenedor{
     background: blue;
     width: 100%;
@@ -5,10 +9,9 @@
     display: flex;
     padding-left: 15px;
     flex-wrap: wrap;
-    flex-direction: column-reverse ;
 
 }
-p{
+.p1{
     background: red;
     width: 20%;
     height: 100px;
@@ -16,4 +19,47 @@ p{
     font-size: 28px;
     margin: 5px;
     border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
 }
+.p1:hover{
+    background: white;
+    height: 40%;
+    box-shadow: 10px 20px 80px rgb(250, 1, 1);
+    rotate: 180deg;
+}
+.p2{
+    background: red;
+    width: 20%;
+    height: 100px;
+    text-align: center;
+    font-size: 28px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.p2:hover{
+    background: aqua;
+    height: 40%;
+    box-shadow: 10px 20px 80px aqua;
+    rotate: 90deg;
+}
+.p3{
+    background: red;
+    width: 20%;
+    height: 100px;
+    text-align: center;
+    font-size: 28px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.p3:hover{
+    background: yellow;
+    height: 40%;
+    box-shadow: 10px 20px 80px rgb(255, 255, 255);
+    rotate: 45deg;
+}
+
